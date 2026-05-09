@@ -1,4 +1,4 @@
-# knip-serverless-issue
+# knip-serverless-issue [resolved in knip@6.12.2]
 
 Minimal reproduction for a bug in knip's Serverless Framework plugin: when a Lambda function uses a **container image** (no `handler` field), knip crashes with an uncaught error.
 
