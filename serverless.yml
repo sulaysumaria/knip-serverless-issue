@@ -1,0 +1,13 @@
+service: sls-service
+
+provider:
+  name: aws
+
+functions:
+  my-function:
+    timeout: 900
+    memorySize: 256
+    # handler: users.create # If I add this, then knip works fine
+    image:
+      name: sls-service
+      command: dist/functions/my-function.handler

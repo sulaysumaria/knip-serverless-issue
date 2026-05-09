@@ -1,0 +1,17 @@
+{
+  "name": "knip-serverless-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "knip"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "knip": "^6.12.1",
+    "serverless": "^4.35.1"
+  }
+}
